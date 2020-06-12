@@ -1,0 +1,46 @@
+
+.wrap {
+	width: 600px;
+	border:3px solid #ccc;
+	padding :10px;
+	padding-top:0px; 
+	margin: 0 auto; 
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+	margin-bottom:50px; 
+	position: relative;
+	}
+
+
+
+.bxslider img {
+max-width: 100%;
+display: block;
+}
+
+ 
+.bx-prev {
+display: block;
+width: 32px;
+height: 32px;
+background: #fff url(../images/prev.png);
+position: absolute;
+left: 0;
+top: 50%;
+text-indent: 99909px;
+z-index: 100;
+}
+
+
+
+.bx-next {
+display: block;
+width: 32px;
+height: 32px;
+background: #fff url(../images/next.png);
+position: absolute;
+right:  0;
+top: 50%;
+text-indent: 99909px;
+z-index: 100;
+}

@@ -1,0 +1,200 @@
+@media screen and (max-width: 992px) {
+	html {
+		margin:0;
+		padding: 0;
+		font-size: 80%;		
+	}
+	
+	.menu_item {
+		font-size: 17px;
+	}
+
+	#menu:hover::after {
+    	z-index: 1000;
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 768px) { 
+	.podlozka {
+  		height: 500px;
+	}
+
+	#menu:hover::after {
+}
+
+
+	#menu {
+		margin:0;
+		max-width: 768px;
+		display: flex;
+		background:#342572 ;
+	}
+
+	#menu ul li{  
+		width: 90px;
+		margin: 0;
+	}
+
+	.menu_item {
+		display: none;
+	}
+
+	.navlistopen {
+		width: 768px;
+		display: block;
+	}
+
+
+	.resp_menu {
+ 		display: block;
+ 		z-index: 1000;
+	}
+
+	#menu:hover::after {
+    	content: "";}
+
+	.section {
+  		margin-top: 200px;
+	}
+
+	.searchblock {
+		position: absolute;
+		top: 100px;
+		margin-left: 0;
+	}
+
+	#livesearch {
+		width: 150px;
+	}	
+
+	.contact {
+ 		display: none;
+ 	}
+
+	.icons1 {
+		margin-left: 4rem;
+	}
+
+	.button-container a {
+		margin-top:160px;
+	}
+
+	.section {
+		margin-top: 0;	}
+	}	
+
+@media screen and (max-width: 575px) {
+
+	#menu:hover::after {
+    	content: "";}
+
+	.grid__item {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+
+
+	.header {
+		min-height: 120px;
+	}
+
+	.social_panel {
+		flex-wrap: wrap;
+	}
+
+
+	.searchblock {
+		margin-top: 20px;
+		left: 0;
+	}
+
+	
+	#livesearch {
+		width: 150px;
+	}
+
+	#hidetick {
+ 		display: none;
+	}
+
+	.effects {
+ 		float: none; 
+	}
+
+	.regform {
+		width:100px;
+	}
+
+
+	.section {
+  		margin-top: 50px;
+	}
+
+	.input {
+		width: 80px;
+	}
+
+
+	.descript {
+		font-size: 0.8rem;
+		top:  90%;
+	}
+
+	.redline {
+		margin: 10px 0;
+		padding-left: 10px;
+		font-size: 0.8rem;
+	}
+
+
+	.home {
+		border:1px solid black ;
+		width: 120px;
+	}
+
+	#menu ul li{ 
+		padding: 0;
+		font-size: 1.2rem;
+		width:200px;
+		border-color: black;
+		border:0px solid black ;
+		border-left-width:0px;
+		border-top-width:0px;
+	}
+
+
+
+	.navlistopen  {
+		display:flex;
+		flex-direction: column;
+		width: 100%;
+		position: absolute;
+	}
+
+	#menu ul li ul{
+		display: none;
+	}
+
+
+	.post {
+		margin-top: 200px;
+		padding: 0;
+  		max-width: 1200px;
+  		width: 100%;
+  		background-color: white;
+  		text-indent: 10px;
+    	line-height: 20px;
+	}
+
+	.views {
+  		height: 30px;
+  		width: 80px;
+	} 
+
+	.views img {
+  		margin-left: 30px; 
+	}
+
+}

@@ -1,0 +1,230 @@
+
+
+body {
+  background-color: #2743e3;
+}
+
+h3 {
+margin-left: 30px;
+color: white;
+}
+
+
+
+ /*Back to top button */
+    #back-top{
+        position:fixed;
+        bottom:30px;
+        right: 60px;  /*смещение на середину экрана*/
+        display: none; /*сначала скроем её*/
+    }
+
+    #back-top a{
+        width:64px;
+       
+        text-align:center;
+        font:11px/100% ;
+        text-transform:uppercase;
+        text-decoration:none;
+        color:#776c78;
+        /*при наведении мышки меняем фон медленно*/
+        -webkit-transition:1s;
+        -moz-transition:1s;
+        transition:1s;
+    }
+
+    /*при наведении мышки делаем фон черным*/
+    #back-top a:hover{
+        color:#000;
+    }
+
+    #back-top span{
+        width:60px;
+        height:40px;
+        display:block;
+        margin-bottom:7px;
+        background:#765be3 url(../images/iconfinder_arrow-up-01_186407.png) no-repeat center center;
+        /* скругляем углы */
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        border-radius:20px;
+        /*при наведении мышки меняем фон медленно*/
+        -webkit-transition:1s;
+        -moz-transition:1s;
+        transition:1s;
+    }
+    #back-top a:hover span{background-color:#777}
+
+
+span {
+font-size: 150%;
+}
+
+p {
+margin-left: 10px;
+text-transform: uppercase;
+margin-bottom: 8px;
+color: white;
+  font-weight: bold;
+  text-shadow: 0 1px 0 black,
+
+                 0 2px 0 black,
+
+                 0 2px 0 black,
+
+                 0 2px 0 black,
+
+                 0 2px 0 black,
+
+                 0 2px 1px rgba(100,100,100,.1),
+
+                 0 0 5px rgba(100,100,100,.1),
+
+                 0 2px 3px rgba(100,100,100,.3),
+
+                 0 3px 5px rgba(100,100,100,.2);
+	}
+
+.question {background: #a19fa1;
+text-shadow: 1px 1px 1px white;
+border:2px solid white;
+
+ 
+
+
+  border-radius: 12px;
+ 
+  width: 500px;
+  
+	margin-bottom:  35px;
+}
+
+.answer {
+
+}
+
+  label { font-weight: 300;}
+
+input {
+
+	margin-bottom: 5px;
+	border: 2px solid #999;}
+
+#finalscore { width: 35px; }
+
+#calc {
+	font-size: 14px;
+  	display: inline-block;
+  	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;
+  	cursor: pointer;
+  	padding: 0.75em 1em;
+  	border: 2px solid white;
+  	-webkit-border-radius: 2px;
+  	border-radius: 2px;
+  	color: rgba(255,255,255,1);
+  	-o-text-overflow: clip;
+  	text-overflow: clip;
+  	background: rgb(98, 172, 21);
+  	text-shadow: 0 -1px 0 rgb(91,129,17) ;
+}
+
+#calc:hover { 
+	background: rgb(26, 209, 47);
+  	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+#calc:active {
+	background: rgb(98, 172, 21);
+ 	-webkit-box-shadow: 0 1px 4px 0 rgb(65,105,23) inset;
+  	box-shadow: 0 1px 4px 0 rgb(65,105,23) inset;
+  	-webkit-transition: none;
+  	-moz-transition: none;
+  	-o-transition: none;
+  	transition: none;
+}
+
+#calc[disabled]{
+   opacity: 0.5 ;
+  background-color: #4efc65;
+  color:#333;
+  pointer-events: none;
+}
+
+#finalscore  {
+text-align: center;
+border: none;
+font-size: 30px;
+font-weight: bold;
+ }
+
+.bold {
+font-weight: bold;
+font-size: 20px;
+	}
+
+.g {
+	color: #4285f4;	
+}
+.o {
+	color: #ea4335;
+	}
+
+.o2 {
+	color: #fbbc05;	
+	}
+
+.l { 
+	color:#34a853;
+	}
+
+.e {
+	color: #ea4335;
+}
+
+
+
+#reset {
+	background-color: #601dc0;
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;
+  	cursor: pointer;
+  	padding: 0.75em 1em;
+  	border: 2px solid white;
+  	-webkit-border-radius: 2px;
+  	border-radius: 2px;
+  	color: rgba(255,255,255,1);
+  	-o-text-overflow: clip;
+  	text-overflow: clip;
+  	text-shadow: 0 -1px 0 rgb(91,129,17) ;
+	font-size: 14px;
+
+}
+
+#reset:hover { 
+	background-color:  #2d074a;
+  	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+.youtube {
+color: red;
+}
+
+.dvd {
+font-style: italic;
+}
+
+.home_test {
+width: 32px;
+background-color: white;
+border: 2px solid black;
+}
